@@ -1,0 +1,12 @@
+[
+  { "id": 1, "text": "Forgot Password flow (API + frontend)", "done": 
+false },
+  { "id": 2, "text": "Show/hide password eye toggle", "done": false },
+  { "id": 3, "text": "Upload profile image", "done": false },
+  { "id": 4, "text": "Switchable .env site name (VITE_SITE_NAME)", "done": 
+false },
+  { "id": 5, "text": "Theme switch (light/dark)", "done": false },
+  { "id": 6, "text": "Email verification", "done": false },
+  { "id": 7, "text": "Reusable component shell", "done": false }
+]
+
