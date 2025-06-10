@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useAuth } from '../hooks/useAuth.jsx'; // Ensure this path is correct
-const referralUrl = `${import.meta.env.VITE_REFERRAL_URL}${user.id}`;
+
 function useMagicAutoLogin(setUser) {
   const navigate = useNavigate();
 
@@ -26,7 +26,7 @@ export default function Dashboard() {
   const [jobs, setJobs] = useState([]);
   const [resumeURL, setResumeURL] = useState('');
   const navigate = useNavigate();
-
+  const referralUrl = `${import.meta.env.VITE_REFERRAL_URL}${user.id}`;
   useMagicAutoLogin(() => {}); // You may not need this if useAuth handles authentication
 
   useEffect(() => {
